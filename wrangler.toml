@@ -1,0 +1,17 @@
+name = "futbolx-chat"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[durable_objects.bindings]]
+name = "CHAT_ROOM"
+class_name = "ChatRoom"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["ChatRoom"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "futbolx-profiles"
+database_id = "REPLACE_WITH_YOUR_D1_ID"
