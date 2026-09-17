@@ -14,4 +14,4 @@ new_sqlite_classes = ["ChatRoom"]
 [[d1_databases]]
 binding = "DB"
 database_name = "futbolx-profiles"
-database_id = "REPLACE_WITH_YOUR_D1_ID"
+database_id = "78ab78cf-6fc1-4598-ad9b-8d601fc31221"
